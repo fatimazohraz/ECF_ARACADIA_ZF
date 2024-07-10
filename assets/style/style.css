@@ -1,0 +1,127 @@
+
+.libre-caslon-text-regular {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-caslon-text-bold {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-caslon-text-regular-italic {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+    background-color: ;
+   
+}
+
+
+.flux {
+    margin-left: 20px;
+    margin-right: 20px;
+   
+   }
+.navcontainer{
+   
+    
+    color:;
+    border-bottom: solid 1px color(srgb rgb(10, 2, 2) green rgb(69, 69, 90));
+    margin-bottom: 30px;
+    
+}
+
+.navcontainer ul{
+   
+    
+    text-transform: capitalize;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+.navcontainer img{
+ width: 150px;
+ height: 150px;
+ margin-bottom: 20px;
+
+
+
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color:#8dda36 ;
+
+}
+/*fin css header*/
+
+/*css footer debut*/
+.containerfooter{
+    background-image: url("../images/imageFooter.jpg");
+}
+
+
+@media screen and (min-width:680px) and (max-width:1024px){
+    .navcontainer {
+       flex-direction: column;
+    }
+    .navcontainer ul{
+        font-size: 20px; 
+    } 
+    .ul1{
+        width: 30%;
+      }
+    .ul2{
+        width: 15%;
+      }
+    .connecterFooter{
+        flex-direction:row;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .navcontainer {
+        flex-direction: row;
+       
+        
+
+    }
+    .navcontainer ul{
+        font-size: 23px; 
+        float: right;
+        margin-right: 50px;
+    }  
+
+    .ul1{
+        width: 40%;
+    }
+    .ul2{
+        width: 25%;
+        
+    }
+
+     
+     .connecterFooter{
+        flex-direction:row;
+        text-align: center;
+        justify-content: space-around;
+    }
+}
