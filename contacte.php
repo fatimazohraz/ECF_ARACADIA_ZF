@@ -20,7 +20,7 @@ $messages = [];
               <div class="card-body">
                 <h4 class="mx-auto my-3"  width="50" height="50" fill="currentColor" 
                 class="bi bi-person-circle" viewBox="0 0 16 16">vos coordonnées</h4>
-                    <form action="fichier.php" method="post">
+                    <form action="teste@arcadiateste.fr" method="post">
 
                         <div class="mb-3 ">
                             <label for="nom" class="form-label">nom</label>
